@@ -1,9 +1,6 @@
 <template>
   <section>
     <q-timeline responsive color="primary">
-      <!-- <q-timeline-entry heading>
-        My Story
-      </q-timeline-entry> -->
       <q-timeline-entry title="Cum Laude" subtitle="March 2012" side="left">
         <p class="text">
           I am Loida, 26 now, graduated (B.S. Interior Design, Cum Laude) on March 2012 from the University of Santo Tomas, and was graced to ranked fourth (4th) place in the October 2012 Interior Designer's Licensure Examinations in the Philippines. It may look like I have the perfect start for my career but my life was abruptly changed when I was diagnosed with a rare sickness after five months of working at my first job.

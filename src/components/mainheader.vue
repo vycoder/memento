@@ -34,6 +34,12 @@ section {
   background-position center
   height 100%
   justify-content center
+  +respond-max($breakpoint-lg) {
+    grid-row-gap 4rem
+  }
+  +respond-max($breakpoint-sm) {
+    grid-row-gap 8rem
+  }
 }
 
 .heading-4 {
@@ -82,10 +88,21 @@ figure {
   justify-items center
   align-items center
   justify-content center
+  +respond-max($breakpoint-md) {
+    grid-template-columns repeat(3, 1fr)
+    grid-row-gap 5rem
+  }
+  +respond-max($breakpoint-sm) {
+    grid-template-columns repeat(2, 1fr)
+    grid-row-gap 8rem
+  }
   img {
     cursor pointer
     max-height 4rem
     max-width 100%
+    +respond-max($breakpoint-md) {
+      max-height 5rem
+    }
     filter: brightness(60%)
     transition all .3s ease
     &:hover {

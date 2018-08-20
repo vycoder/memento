@@ -11,6 +11,10 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+
+  +respond-max($breakpoint-sm) {
+    font-size 50%
+  }
 }
 
 .heading {
@@ -52,6 +56,10 @@ html {
   font-size 1.6rem
   +respond-max($breakpoint-md) {
     font-size 2.5rem
+  }
+
+  +respond-max($breakpoint-sm) {
+    font-size 1.8rem
   }
 }
 

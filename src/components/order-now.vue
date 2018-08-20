@@ -10,13 +10,9 @@
         Account Number: 0589-2101-23 <br>
         Account Name: LOIDA CONCEPCION BAUTO
       </p>
-      <p class="text">
-        OR via Smart PADALA<br>
-        5299-6761-3152-8107<br>
-        Send to: 09081557234
-      </p>
       <p class="text">Send a picture of the receipt and wait for your copy on your facebook or email.</p>
-      <p class="text">HARDCOPIES WILL BE AVAILABLE SOON! Pre-order now!</p>
+      <p class="text">HARDCOPIES WILL BE AVAILABLE ON SEPTEMBER! Pre-order now!</p>
+      <p class="text">Regular price is Php 249.00, order now and get a signed ADVANCE COPY for Php 199.00 only.</p>
       <button class="btn" @click="openURL('https://www.facebook.com/messages/t/loidaconcepcionbauto/')">Message Loida</button>
     </div>
   </section>
@@ -27,14 +23,21 @@
   background-color rgba($primary, .05)
   display grid
   grid-gap 2rem
-  align-content center
-  justify-items start
   padding 10rem
-  height 100vh
+  align-content center
+  justify-content center
+  justify-items start
+  min-height 100vh
   max-width 100%
+  +respond-max($breakpoint-lg) {
+    padding 0 5rem
+  }
+  +respond-max($breakpoint-md) {
+    min-height 100%;
+    padding 10rem
+  }
   +respond-max($breakpoint-sm) {
-    padding 5rem;
-    height 100%
+    padding 8rem
   }
 }
 </style>

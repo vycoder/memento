@@ -29,6 +29,9 @@ section {
   align-items center
   height 100%
   padding 3rem 0
+  +respond-max($breakpoint-md) {
+    padding-bottom 6rem
+  }
 
 }
 

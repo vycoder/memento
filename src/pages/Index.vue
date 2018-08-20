@@ -37,10 +37,15 @@
 @import '~variables'
 .container {
   display grid
-  grid-template-rows 80vh min-content 100vh repeat(3, min-content)
+  grid-template-rows 80vh min-content minmax(100vh, min-content) repeat(3, min-content)
   grid-template-columns \[full-start\] minmax(6rem, 1fr) \[center-start\] repeat(8, \[col-start\] minmax(min-content, 14rem) \[col-end\]) \[center-end\] minmax(6rem, 1fr) \[full-end\]
   +respond-max($breakpoint-lg) {
-    grid-template-rows 80vh repeat(2, min-content) 100vh repeat(3, min-content)
+    grid-template-rows repeat(7, min-content)
+
+  }
+
+  +respond-max($breakpoint-sm) {
+    grid-template-rows repeat(6, min-content)
   }
 }
 
@@ -82,8 +87,12 @@
   background-image linear-gradient(rgba($primary, 0.05), rgba($primary, 0.1), white)
   /deep/ .q-video {
     margin 0 auto
-    height 30vw
-    width 30vw
+    height 50rem
+    width 50rem
+    +respond-max($breakpoint-md) {
+      height 50vh
+      width 50vh
+    }
   }
 }
 
