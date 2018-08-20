@@ -47,7 +47,8 @@ module.exports = function (ctx) {
         'QPageContainer',
         'QPage',
         'QTimeline',
-        'QTimelineEntry'
+        'QTimelineEntry',
+        'QVideo'
       ],
       directives: [
         'Ripple'

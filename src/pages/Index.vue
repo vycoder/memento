@@ -16,6 +16,9 @@
       <div id="scrollSnap" class="order-now">
         <order-now />
       </div>
+      <div class="video q-py-xl">
+        <q-video src="https://www.youtube.com/embed/sV38f_5Tcvc" />
+      </div>
       <div class="story q-py-xl">
         <story/>
       </div>
@@ -56,12 +59,6 @@
   }
 }
 
-.story {
-  grid-column full-start / full-end
-  width 70%
-  margin 0 auto
-}
-
 .testimonials {
   grid-column center-start / center-end
 }
@@ -78,6 +75,22 @@
   +respond-max($breakpoint-md) {
     grid-column full-start / full-end
   }
+}
+
+.video {
+  grid-column full-start / full-end
+  background-image linear-gradient(rgba($primary, 0.05), rgba($primary, 0.1), white)
+  /deep/ .q-video {
+    margin 0 auto
+    height 30vw
+    width 30vw
+  }
+}
+
+.story {
+  grid-column full-start / full-end
+  width 70%
+  margin 0 auto
 }
 
 .gallery {

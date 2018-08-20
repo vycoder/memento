@@ -2,8 +2,8 @@
   <section>
     <ul>
       <li>Learn more about AVM</li>
-      <li>AVM Phillipines</li>
-      <li>Read more about her story</li>
+      <li @click="openURL('https://www.facebook.com/AVMPhilippines/?hc_ref=ARRWVO7ZA55oLPJYXKSkWJ_eAQ2WQyTbFNjoHPGj0VkTm_k9El_Jfyen-dHQRrUxZkA&fref=nf&__tn__=kCH-R')">AVM Phillipines</li>
+      <li @click="openURL('https://www.facebook.com/story.php?story_fbid=1572949759486384&id=100003141240494')">Read more about her story</li>
     </ul>
     <p class="text-center text-white q-pt-xl q-pb-md">
       &copy; Copyright 2018 by <span class="webmaster" @click="openURL('www.josephharveyangeles.com')">Joseph Harvey C. Angeles</span>, a friend. While having an AVM is a bit of a bummer, I'm not worried that she won't eventually recover, at the very least, she'll probably just use it to make her life more meaningful &mdash; that's just how she rolls.

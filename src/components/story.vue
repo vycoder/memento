@@ -35,6 +35,11 @@
           After almost 5 years of ins and outs of the hospital, here I am again, seeking for your help and support for my fundraising. I have written a book, entitled "Memento," my personal journal about my experience with its genre, inspirational and humor, edited it as an electronic book (EBook) and sell it online as my fundraising to help myself. I sell it at Php 200.00/copy but I will give it at 50.00PHP/ copy this February. I must continue the fight to live most especially now that I already have a 1-year old son. My whole story was featured last December 16, 2017, in GMA 7's show, "Magpakailanman," and a short feature in ABS CBN's "Umagang Kay Ganda," last Dec.12, 2017. You can check out my interviews on the internet if you want to.
         </p>
       </q-timeline-entry>
+      <q-timeline-entry title="STILL NOT SAFE" subtitle="March 13, 2018" side="left">
+        <p class="text">
+          Last March 13, 2018, I had my four-vessel cerebral angiogram. The result showed that I AM NOT YET AVM-FREE. After my almost 5 years of battling AVM, my fight to at least improve our lives aren't over. I still need to be checked next year, to have bronchoscopy every year to check my trachea and to remove the cyst found in my right breast.
+        </p>
+      </q-timeline-entry>
     </q-timeline>
   </section>
 </template>

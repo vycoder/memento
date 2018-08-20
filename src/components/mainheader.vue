@@ -11,8 +11,10 @@
     <button class="btn" @click="scroll('#scrollSnap')">Order now</button>
     <div class="seenon">Seen on</div>
     <div class="seenon-logos">
-      <img src="~assets/gma-logo.png" alt="GMA 7">
-      <img src="~assets/mpklm.png" alt="Magpakailanman">
+      <img src="~assets/gma-logo.png" alt="GMA 7" @click="openURL('https://www.gmanetwork.com/entertainment/tv/magpakailanman/36045/magpakailanman-presents-my-christmas-lullaby-the-loida-bauto-story/story')">
+      <img src="~assets/mpklm.png" alt="Magpakailanman" @click="openURL('https://www.youtube.com/watch?v=kouGgiLMCJY')">
+      <img src="~assets/philstar-logo.png" alt="Philstar" @click="openURL('https://www.philstar.com/other-sections/the-good-news/2018/02/12/1786828/loida-bauto-saga-courage-and-hope')">
+      <img src="~assets/kami-logo.png" alt="Kami" @click="openURL('https://kami.com.ph/65188-netizen-recalls-normal-life-changed-instant.html#65188')">
       <img src="~assets/abscbn-logo.png" alt="ABS-CBN">
       <img src="~assets/UMKlogo.png" alt="Umagang kay ganda">
     </div>
@@ -75,22 +77,29 @@ figure {
 
 .seenon-logos {
   display grid
-  grid-template-columns repeat(4, 1fr)
-  grid-gap 3rem
+  grid-template-columns repeat(6, 1fr)
+  grid-gap 2rem
   justify-items center
   align-items center
   justify-content center
   img {
+    cursor pointer
     max-height 4rem
     max-width 100%
-    filter: brightness(70%)
+    filter: brightness(60%)
+    transition all .3s ease
+    &:hover {
+      filter brightness(100%)
+    }
   }
 }
 </style>
 <script>
+import {openURL} from 'quasar'
 import scroller from 'vue-scrollto/src/scrollTo'
 export default {
   methods: {
+    openURL,
     scroll (elementId, duration = 1000, delay = 100) {
       setTimeout(() => {
         scroller(elementId, duration)

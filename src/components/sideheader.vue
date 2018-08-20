@@ -12,10 +12,10 @@
         <h5 class="heading heading-4--light">@MementoNiLoida</h5>
         <p class="subtitle">Facebook page</p>
       </div>
-      <img src="~assets/avmgroup.jpg" alt="AVM Group" class="links-list__img">
-      <div class="links-list__item" @click="openURL('https://www.facebook.com/AVMPhilippines/?hc_ref=ARRWVO7ZA55oLPJYXKSkWJ_eAQ2WQyTbFNjoHPGj0VkTm_k9El_Jfyen-dHQRrUxZkA&fref=nf&__tn__=kCH-R')">
-        <h5 class="heading heading-4--light">@AVMPhilippines</h5>
-        <p class="subtitle">AVM Community</p>
+      <img src="~assets/gofundme.png" alt="AVM Group" class="links-list__img">
+      <div class="links-list__item" @click="openURL('https://www.gofundme.com/loidaavmbattle')">
+        <h5 class="heading heading-4--light">Donate</h5>
+        <p class="subtitle">GoFundMe campaign</p>
       </div>
     </div>
   </section>
