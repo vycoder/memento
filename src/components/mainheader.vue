@@ -11,7 +11,9 @@
     <button class="btn" @click="scroll('#scrollSnap')">Order now</button>
     <div class="seenon">Seen on</div>
     <div class="seenon-logos">
+      <img src="~assets/gma-logo.png" alt="GMA 7">
       <img src="~assets/mpklm.png" alt="Magpakailanman">
+      <img src="~assets/abscbn-logo.png" alt="ABS-CBN">
       <img src="~assets/UMKlogo.png" alt="Umagang kay ganda">
     </div>
   </section>
@@ -73,10 +75,11 @@ figure {
 
 .seenon-logos {
   display grid
-  grid-template-columns repeat(2, 1fr)
+  grid-template-columns repeat(4, 1fr)
   grid-gap 3rem
   justify-items center
   align-items center
+  justify-content center
   img {
     max-height 4rem
     max-width 100%
