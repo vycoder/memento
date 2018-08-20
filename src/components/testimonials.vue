@@ -30,7 +30,7 @@
     </div>
     <div class="testimonial">
       <h4 class="heading heading-4">Pak!</h4>
-      <p class="text">...truly, heart breaking however courageously well written. Tagalog na tagalog. Pak!</p>
+      <p class="text">...truly, heart-breaking, courageously well written. Tagalog na tagalog. Pak!</p>
     </div>
     <div class="testimonial">
       <h4 class="heading heading-4">Heart-racing</h4>
